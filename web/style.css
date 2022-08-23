@@ -1,0 +1,20 @@
+@import 'css/bootstrap.min.css';
+
+@font-face {
+    font-family: sourcecodepro;
+    src: url(./fonts/sourcecodepro-regular.woff);
+}
+
+body {
+    background: #126e7d;
+}
+
+h3 {
+    font-family: 微軟正黑體,sourcecodepro,Calibri;
+    color: #e6f1f4;
+}
+
+h6 {
+    font-family: sourcecodepro,Calibri;
+    color: #e6f1f4;
+}

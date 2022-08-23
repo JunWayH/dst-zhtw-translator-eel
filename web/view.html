@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="/eel.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="func.js"></script>
+    <!--script src="jquery-3.5.1.min.js"></script-->
+    
+    <title>DST zh-tw Translator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center" style="background-color:#117e96">
+            <div class="col-4-md" style="margin-top:10px">
+                <h3><b><i>DST 正體中文翻譯</i></b></h3>
+            </div>
+        </div>
+        <div class="row justify-content-center" style="margin-top: 20px;">
+            <div class="col-2-sm">
+                <button type="button" class="btn btn-dark" id="path-btn" onclick="getPath()">
+                    Choose
+                </button>
+            </div>
+            <div class="col-10-sm">
+                <input class="form-control" type="text" id="pathLabel" placeholder="Choose the file path." value="C:/Program Files (x86)/Steam/steamapps/common/Don't Starve Together/data/databundles/scripts.zip">        
+            </div>
+        </div>
+        <div class="row justify-content-center" style="margin-top: 15px;">
+            <div class="col-2-sm">
+                <button type="button" class="btn btn-info" id="trans-btn" onclick="doTrans()">
+                    Click me
+                </button>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-4-sm" style="margin-right:10px">
+                <h6>by Awei </h6>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
